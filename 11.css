@@ -119,7 +119,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: red;
+  background-color: yellow;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out;
@@ -1216,7 +1216,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #292b2c;
-  background-color: red; }
+  background-color: yellow; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -1382,7 +1382,7 @@ output {
   .table tbody + tbody {
     border-top: 2px solid #eceeef; }
   .table .table {
-    background-color: red; }
+    background-color: yellow; }
 
 .table-sm th,
 .table-sm td {
@@ -1459,7 +1459,7 @@ output {
     background-color: #ebcccc; }
 
 .thead-inverse th {
-  color: red;
+  color: yellow;
   background-color: #292b2c; }
 
 .thead-default th {
@@ -1467,12 +1467,12 @@ output {
   background-color: #eceeef; }
 
 .table-inverse {
-  color: red;
+  color: yellow;
   background-color: #292b2c; }
   .table-inverse th,
   .table-inverse td,
   .table-inverse thead th {
-    border-color: red; }
+    border-color: yellow; }
   .table-inverse.table-bordered {
     border: 0; }
 
@@ -2485,7 +2485,7 @@ tbody.collapse.show {
     color: #fff;
     background-color: #0275d8; }
   .custom-control-input:focus ~ .custom-control-indicator {
-    box-shadow: 0 0 0 1px red, 0 0 0 3px #0275d8; }
+    box-shadow: 0 0 0 1px yellow, 0 0 0 3px #0275d8; }
   .custom-control-input:active ~ .custom-control-indicator {
     color: #fff;
     background-color: #8fcafe; }
@@ -2650,8 +2650,8 @@ tbody.collapse.show {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #464a4c;
-    background-color: red;
-    border-color: #ddd #ddd red; }
+    background-color: yellow;
+    border-color: #ddd #ddd yellow; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
     border-top-right-radius: 0;
@@ -4136,7 +4136,7 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-faded {
-  background-color: #f00000; }
+  background-color: #f0f000; }
 
 .bg-primary {
   background-color: #0275d8 !important; }
